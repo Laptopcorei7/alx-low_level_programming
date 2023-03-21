@@ -17,5 +17,6 @@ int main(void)
 	putchar(putchar_str[j]);
 	}
 	}
+
 	return (0);
 }
