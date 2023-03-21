@@ -8,14 +8,30 @@
 int main(void)
 {
 	int i, j;
-	char putchar_str[] = "_putchar\n";
 
-	for (i = 0; i < sizeof(putchar_str); i++)
+	for (i = 0; i < 1; i++)
 	{
-	for (j = 0; j <= i; j++)
+	for (j = 0; j < 8; j++)
 	{
-	putchar(putchar_str[j]);
+	if (j == 0)
+	putchar('_');
+	else if (j == 1)
+	putchar('p');
+	else if (j == 2)
+	putchar('u');
+	else if (j == 3)
+	putchar('t');
+	else if (j == 4)
+	putchar('c');
+	else if (j == 5)
+	putchar('h');
+	else if (j == 6)
+	putchar('a');
+	else if (j == 7)
+	putchar('r');
 	}
+	putchar('\n');
 	}
+
 	return (0);
 }
