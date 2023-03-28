@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program.
- *
  * updateValue - Updates the value pointed to by a pointer to an integer.
- * 
+ *
  * @ptr: Pointer to an integer variable.
  */
 void updateValue(int *ptr)
@@ -12,6 +10,11 @@ void updateValue(int *ptr)
 	*ptr = 98;
 }
 
+/**
+ * main - Entry point of the program.
+ *
+ * Return: Always returns 0.
+ */
 int main(void)
 {
 	int n = 42;
@@ -25,3 +28,4 @@ int main(void)
 
 	return (0);
 }
+
