@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point of the program.
+ *
  * updateValue - Updates the value pointed to by a pointer to an integer.
- * main - Doing something
+ * 
  * @ptr: Pointer to an integer variable.
  */
 void updateValue(int *ptr)
