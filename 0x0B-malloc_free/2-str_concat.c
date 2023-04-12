@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - Compute size of input by adding together beginning and ending parts.
+ * str_concat - Compute size of input adding together beginning ending parts.
  * @s1: input one to concat
  * @s2: input two to concat
  * Return: concat of s1 and s2
